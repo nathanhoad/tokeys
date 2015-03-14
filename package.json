@@ -1,5 +1,5 @@
 {
-  "name": "Tokeys",
+  "name": "tokeys",
   "version": "1.0.0",
   "description": "Given an array, create an object with matching keys and values.",
   "main": "index.js",
