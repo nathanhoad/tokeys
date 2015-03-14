@@ -4,7 +4,7 @@
   "description": "Given an array, create an object with matching keys and values.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
     "flux"
@@ -14,5 +14,12 @@
   "devDependencies": {
     "mocha": "^2.2.1",
     "should": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanhoad/tokeys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanhoad/tokeys/issues"
+  },
 }
