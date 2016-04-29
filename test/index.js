@@ -9,4 +9,11 @@ describe('Tokeys', function () {
         object.FIRST.should.equal('FIRST');
         object.SECOND.should.equal('SECOND');
     });
+    
+    it('should use the prefix if provided', function () {
+        var object = Tokeys(['FIRST', 'SECOND'], 'PREFIX_');
+        
+        object.FIRST.should.equal('PREFIX_FIRST');
+        object.SECOND.should.equal('PREFIX_SECOND');
+    });
 });
